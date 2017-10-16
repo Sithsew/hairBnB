@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hair B2B</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../vendor/css/loginStyles.css">
+    </head>
+    <body>
+        <button class="btn btn-success" onclick="document.getElementById('login').style.display='block'" style="width:auto;">Login</button>
+        <div id="login" class="modal">
+            <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal" >×</span>
+            <form class="login" action=" " >
+                <div class="container" style="padding-right: 5%;padding-left: 5%">
+
+                    <label><b>Email</b></label>
+                    <input type="text" class="form-control" name="email" required>
+                    <div style="margin-top: 15px">
+                        <label><b>Password</b></label>
+                        <input type="password" class="form-control" name="psw" required>
+                    </div>
+
+                    <div class="col-md-12" style="margin-top: 15px" align="center">
+                        <a href=" "><u>Forgot Password</u></a>
+                    </div>
+                    <div class="col-md-12" style="margin-top: 15px;margin-bottom: 13px" align="center" >
+                        <input type="checkbox" checked="checked">Keep me signned in
+                    </div>
+                    <div class="col-md-12" align="center"style="margin-top: 15px">
+                        <button type="submit" class="btn btn-success" style="width: 70%">Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

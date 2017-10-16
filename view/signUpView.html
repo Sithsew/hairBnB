@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hair B2B</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../vendor/css/styles.css">
+
+    </head>
+    <body>
+    <button class="btn btn-success" onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
+        <div id="signUp" class="modal">
+            <span onclick="document.getElementById('signUp').style.display='none'" class="close" title="Close LoginModal">×</span>
+            <form class="signUp" action=" " >
+                <div class="container" style="padding-left: 5%;padding-right: 5%">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label><b>First Name</b></label>
+                            <input type="text" class="form-control" name="firstname" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label ><b>Last Name</b></label>
+                            <input type="text" class="form-control" name="lastname" required>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 13px">
+                        <label><b>Email</b></label>
+                        <input type="text" class="form-control" name="email" required>
+                    </div>
+
+                    <div style="margin-top: 13px">
+                        <label><b>Password</b></label>
+                        <input type="password" class="form-control" name="psw" required>
+                    </div>
+
+                    <div style="margin-top: 13px">
+                        <label><b>Confirm Password</b></label>
+                        <input type="password" class="form-control" name="confpsw" required>
+                    </div>
+
+                    <div class="row" >
+                        <div class="col-md-6" style="margin-top: 10px;margin-bottom: 10px" >
+                            <input type="checkbox" checked="checked" name="account_type" value="Salon"><b>Salon</b><br>
+                        </div>
+                        <div class="col-md-6" style="margin-top: 10px; margin-bottom: 10px" >
+                            <input type="checkbox" name="account_type" value="Stylist"><b>Stylist</b>
+                        </div>
+
+                    </div>
+                    <div >
+                        <label><b>Business Name</b></label>
+                        <input type="text" class="form-control" name="Bname1" required>
+
+                    </div>
+
+                    <div style="margin-top: 13px;margin-bottom: 15px">
+                        <label><b>Business Name for Stylist</b></label>
+                        <input type="text" class="form-control" name="Bname2" required>
+                    </div>
+
+
+                    <input type="checkbox" checked="checked"> Remember me
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                    <input type="checkbox" checked="checked"> I would like to receive promotion emails
+
+                    <div class="exitForm row" style="margin-top: 20px">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-danger" onclick="document.getElementById('signUp').style.display='none'" style="width: 80%;margin-left: 15%">Cansel</button>
+                        </div>
+                        <div class="col-md-6">
+                           <button type="submit" class="btn btn-success" style="width: 80%;margin-right: 15%">Sign Up</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
