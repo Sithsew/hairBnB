@@ -1,27 +1,31 @@
-header {background: black;color:white;
-    padding:10px;
+header {
+    background: black;
+    color:white;
+    padding:16px;
     position: fixed;
-    height: 75px;
+    height: 76px;
     top: 0;
     width: 100%;
 }
 footer {background: #aaa;color:white;
     position: fixed;
-    height: 210px;
+    height: 240px;
     bottom: 0;
     width: 100%;
-    padding-top: 1%;
+    padding: 1%;
+
     }
 
-/*.flex-container {*/
-    /*display: -webkit-flex;*/
-    /*display: flex;*/
-    /*-webkit-flex-flow: row wrap;*/
-    /*flex-flow: row wrap;*/
-    /*text-align: left;*/
-    /*height: 50%;*/
-    /*margin-bottom: 210px;*/
-/*}*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    height: auto;
+    margin-top: 76px;
+    margin-bottom: 240px;
+}
 
 .flex-container > * {
     padding: 15px;

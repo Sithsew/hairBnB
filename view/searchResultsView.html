@@ -15,73 +15,72 @@
     </head>
     <body>
 
-    <div id="flex-container">
-        <div id="header">
+        <div>
             <header>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6" align="left">
-                            <h1>Hair BnB</h1>
-                        </div>
-                        <div class="col-md-6" align="right">
-                            <button class="btn btn-success" onclick="document.getElementById('signUp').style.display='block'" style="width: 125px;" >Sign Up</button>
-                            <button class="btn btn-success" onclick="document.getElementById('login').style.display='block'" style="width: 125px;">Login</button>
-                        </div>
+                <div class="row">
+                    <div class="col-md-6" align="left">
+                        <h1>Hair BnB</h1>
+                    </div>
+                    <div class="col-md-6" align="right">
+                        <button class="btn btn-success" onclick="document.getElementById('signUp').style.display='block'" style="width: 125px;" >Sign Up</button>
+                        <button class="btn btn-success" onclick="document.getElementById('login').style.display='block'" style="width: 125px;">Login</button>
                     </div>
                 </div>
-
             </header>
 
-            <div class="row">
-                <div class="card card-inverse col-md-12" >
-                    <div class="card-block">
-                        <blockquote class="card-blockquote"  >
-                            <h2 align="center" style="margin-bottom:2%; padding: 1%;background-color: #d4edda">Search Results</h2>
 
-                            <div class="card" style="width: 13rem; padding-top: 1%;background-color: black" align="center" >
-                                <img class="card-img-top" src="../vendor/image/proPic.png" alt="Card image cap" style="width: 70%;" >
-                                <div class="card-block" align="center">
-                                    <h4 class="card-title">John Doe</h4>
-                                    <p class="card-text">Kandy, SL</p>
-                                    <div class="row" align="center" style="padding-left:12%">
-                                        <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
-                                        <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
-                                        <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
-                                        <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
-                                        <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
-                                    </div>
+            <div class="flex-container">
 
-                                    <!--for($x=1;$x<=$starNumber;$x++) {-->
-                                    <!--echo '<img src="path/to/star.png" />';-->
-                                    <!--}-->
-                                    <!--if (strpos($starNumber,'.')) {-->
-                                    <!--echo '<img src="path/to/half/star.png" />';-->
-                                    <!--$x++;-->
-                                    <!--}-->
-                                    <!--while ($x<=5) {-->
-                                    <!--echo '<img src="path/to/blank/star.png" />';-->
-                                    <!--$x++;-->
-                                    <!--}-->
+                <h2 align="center" style="margin-bottom:2%;background-color: #d4edda">Search Results</h2>
 
+                <div class="row col-md-12" >
+<div class="col-md-1"></div>
+                    <div class="card " style="width: 13rem; padding-top: 1%;background-color: black" align="center" >
+                        <img class="card-img-top" src="../vendor/image/proPic.png" alt="Card image cap" style="width: 70%;" >
+                        <div class="card-block" align="center">
 
-                                    <a href="#" >More</a>
-                                </div>
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Kandy, SL</p>
+
+                            <div class="row" align="center" style="padding-left:12%">
+                                <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
+                                <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
+                                <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
+                                <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
+                                <img src="../vendor/image/star.png" style="width:30px; height: 30%;size:auto">
+
                             </div>
 
-                        </blockquote>
+                            <!--for($x=1;$x<=$starNumber;$x++) {-->
+                            <!--echo '<img src="path/to/star.png" />';-->
+                            <!--}-->
+                            <!--if (strpos($starNumber,'.')) {-->
+                            <!--echo '<img src="path/to/half/star.png" />';-->
+                            <!--$x++;-->
+                            <!--}-->
+                            <!--while ($x<=5) {-->
+                            <!--echo '<img src="path/to/blank/star.png" />';-->
+                            <!--$x++;-->
+                            <!--}-->
+
+
+                            <a href="#" >More</a>
+                        </div>
                     </div>
+
                 </div>
+
             </div>
 
 
             <footer>
                 <div class="row" >
-                    <div class="col-md-2">
-                        REGISTERED USERS<br>
+                    <div class="col-md-2" >
+                        REGISTERED USERS :
                         56,678
                     </div>
                     <div class="col-md-2">
-                        TOTAL BOOKINGS<br>
+                        TOTAL BOOKINGS :
                         56,678
                     </div>
                 </div>
@@ -125,8 +124,7 @@
                 </div>
 
             </footer>
-    </div>
+        </div>
 
-        <
     </body>
 </html>
